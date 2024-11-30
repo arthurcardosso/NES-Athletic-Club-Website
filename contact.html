@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - NES Athletic Club</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50">
+
+  <header class="bg-gray-800 text-white py-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+      <div class="flex flex-col items-center">
+        <h1 class="text-3xl font-bold">NES Athletic Club</h1>
+        <p class="text-lg mt-2">A academia do futuro, onde a inovação encontra a saúde.</p>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="http://127.0.0.1:5500/index.html" class="hover:text-gray-300">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/about.html" class="hover:text-gray-300">Quem Somos</a></li>
+          <li><a href="http://127.0.0.1:5500/contact.html" class="hover:text-gray-300">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="contact" class="py-16 px-6 md:px-12 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-yellow-500 mb-6">Entre em Contato</h2>
+      <p class="text-lg text-gray-600 mb-10">
+        Tem dúvidas? Precisa de ajuda para escolher o melhor plano? Estamos aqui para ajudar!
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+        <div class="text-left space-y-4">
+          <h3 class="text-xl font-bold text-gray-800">Informações de Contato</h3>
+          <p><span class="font-bold text-gray-800">Endereço:</span> <span class="text-gray-600">Campus A. C. Simões, S/N, Tabuleiro do Martins, Maceió </span></p>
+          <p><span class="font-bold text-gray-800">Telefone:</span> <span class="text-gray-600">(82) 99838-3351</span></p>
+          <p><span class="font-bold text-gray-800">E-mail:</span> <span class="text-gray-600">nes.alagoas@gmail.com</span></p>
+          <div class="flex space-x-4">
+            <a href="https://api.whatsapp.com/send/?phone=5582998383351&text&type=phone_number&app_absent=0" class="text-gray-600 hover:text-blue-400">WhatsApp</a>
+            <a href="https://www.instagram.com/nes.ufal/" class="text-gray-600 hover:text-blue-400">Instagram</a>
+            <a href="https://www.youtube.com/@novoensinosuplementar" class="text-gray-600 hover:text-blue-400">Youtube</a>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800">Horário de Atendimento:</h3>
+          <ul class="list-disc ml-6">
+            <li><span class="font-bold text-gray-800">Segunda a Sexta:</span> <span class="text-gray-600">5h - 22h</span></li>
+            <li><span class="font-bold text-gray-800">Sábado:</span> <span class="text-gray-600">6h - 21h</span></li>
+            <li><span class="font-bold text-gray-800">Domingo:</span> <span class="text-gray-600">Fechado</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Envie uma Mensagem</h3>
+          <form action="#" method="POST" class="space-y-4">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700">Nome</label>
+              <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-md" required>
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
+              <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-md" required>
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700">Mensagem</label>
+              <textarea id="message" name="message" rows="4" class="w-full p-3 border border-gray-300 rounded-md" required></textarea>
+            </div>
+            <button type="submit" class="bg-gray-800 text-white py-2 px-6 rounded-md hover:bg-yellow-500 transition">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-yellow-500 text-white py-6 mt-16">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 NES Athletic Club. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
