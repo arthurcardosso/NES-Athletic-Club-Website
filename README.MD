@@ -10,7 +10,9 @@ O projeto atende aos seguintes requisitos conforme a descrição do trabalho:
 ### 1. Estrutura com Múltiplas Páginas
 
 • **index.html**: Página inicial, apresentando os principais destaques e serviços da academia.
+
 • **about.html**: Página "Quem Somos", com detalhes sobre a história, visão e valores da NES Athletic Club.
+
 • **contact.html**: Página de contato, com informações úteis sobre a academia.
 
 ### 2. Semântica no Layout
